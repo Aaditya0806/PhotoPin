@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .main-div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    viewport-fit: cover;
+    
+  }  
+  
+  .div-one{
+    position: relative;
+    width: 100%;
+   height: 100%;
+  
+  }
+  
+  .mainV{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .div-two{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+  
+  }
+  
+  
+  .logo-img{
+    width: 335px;
+  
+  }
+  
+  .div-three{
+    
+    margin-left: -150px;
+  }
+  
+  .logo-name{
+    color: white;
+    margin-left: 192px;
+    margin-top: -115px;
+  }
+  
+  .div-four{
+    
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    outline: none;
+    
+  }
+  
+  .sign-button{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    padding: 6px;
+  }
+  
+  
